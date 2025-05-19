@@ -6,3 +6,7 @@
   max-width: 1600px;
   margin: 0 auto;
 }
+
+.titulo-serif {
+  font-family: "Noto Serif", "Times New Roman", serif;
+}

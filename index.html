@@ -34,7 +34,9 @@
           />
           <ul class="nav__links">
             <li><a href="#recipes" class="nav__link">Recetas</a></li>
-            <li><a href="#booking" class="nav__link">Reservar una mesa</a></li>
+            <li>
+              <a href="#booking" class="nav__link">Reservar una mesa</a>
+            </li>
             <li><a href="#contacts" class="nav__link">Contactos</a></li>
           </ul>
         </nav>
@@ -56,14 +58,16 @@
           class="header__image"
         />
 
-        <footer class="header__footer">
+        <div class="header__footer">
+          <p class="header__paragraph">Horario:</p>
+          <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
           <p class="header__paragraph">
-            Horario:<br />
-            Lunes a Viernes (de 10:00h a 19:00h)<br />
-            Sábados y Domingos (de 11:00h a 18:00h)<br />
+            Sábados y Domingos (de 11:00h a 18:00h)
+          </p>
+          <p class="header__paragraph">
             Avenida del Éxito 200, Ciudad Triple Peaks
           </p>
-        </footer>
+        </div>
       </header>
 
       <main class="content">
@@ -101,7 +105,7 @@
           </div>
         </section>
 
-        <section class="reservation"></section>
+        <section class="reservation" id="booking"></section>
       </main>
       <footer class="footer"></footer>
     </div>

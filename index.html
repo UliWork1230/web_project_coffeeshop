@@ -85,8 +85,7 @@
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 title="Receta Aeropress"
                 allowfullscreen
-              >
-              </iframe>
+              ></iframe>
               <p class="recipes__video-caption">Receta en Aeropress ~5 min</p>
             </div>
 
@@ -96,8 +95,7 @@
                 src="https://www.youtube.com/embed/st571DYYTR8"
                 title="Receta prensa francesa"
                 allowfullscreen
-              >
-              </iframe>
+              ></iframe>
               <p class="recipes__video-caption">
                 Receta en cafetera francesa ~15 min
               </p>
@@ -105,64 +103,63 @@
           </div>
         </section>
 
-        <section class="booking" id="reservation">
-          <section class="reservation">
-            <h2 class="reservation__title">Reservar una mesa</h2>
-            <form class="reservation__form" name="reservation" novalidate>
-              <fieldset class="form">
-                <label class="form__label">
-                  Nombre *
-                  <input
-                    type="text"
-                    class="form__input"
-                    name="name"
-                    placeholder="Nombre"
-                    required
-                  />
-                </label>
-                <label class="form__label">
-                  Número de comensales *
-                  <input
-                    type="number"
-                    class="form__input"
-                    name="guests"
-                    placeholder="1-8"
-                    required
-                  />
-                </label>
-                <label class="form__label">
-                  Fecha y hora *
-                  <input
-                    type="datetime-local"
-                    class="form__input"
-                    name="datetime"
-                    required
-                  />
-                </label>
-                <label class="form__label">
-                  Tu correo electrónico *
-                  <input
-                    type="email"
-                    class="form__input"
-                    name="email"
-                    placeholder="email@email.com"
-                    required
-                  />
-                </label>
-              </fieldset>
-
-              <label class="form__checkbox">
-                <input type="checkbox" class="form__checkbox-input" required />
-                Acepto los términos de uso
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="reservation__form form" name="reservation" novalidate>
+            <fieldset class="form">
+              <label class="form__label">
+                Nombre *
+                <input
+                  type="text"
+                  class="form__input"
+                  name="name"
+                  placeholder="Nombre"
+                  required
+                />
               </label>
+              <label class="form__label">
+                Número de comensales *
+                <input
+                  type="number"
+                  class="form__input"
+                  name="guests"
+                  placeholder="1-8"
+                  required
+                />
+              </label>
+              <label class="form__label">
+                Fecha y hora *
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  name="datetime"
+                  required
+                />
+              </label>
+              <label class="form__label">
+                Tu correo electrónico *
+                <input
+                  type="email"
+                  class="form__input"
+                  name="email"
+                  placeholder="email@email.com"
+                  required
+                />
+              </label>
+            </fieldset>
 
-              <button type="submit" class="form__button">
-                Reservar una mesa
-              </button>
-            </form>
-          </section>
+            <label class="form__checkbox">
+              <input type="checkbox" class="form__checkbox-input" required />
+              Acepto los términos de uso
+            </label>
+
+            <button type="submit" class="form__button">
+              Reservar una mesa
+            </button>
+          </form>
         </section>
       </main>
+
       <footer class="footer"></footer>
     </div>
   </body>
